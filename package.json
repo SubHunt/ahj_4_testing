@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "proxy": "http://localhost:9000",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
@@ -17,7 +20,10 @@
     "show:dist": "live-server dist",
     "ci": "start-test :9000 test"
   },
-  "repository": "git+https://github.com/SubHunt/ahj_4_testing.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubHunt/ahj_4_testing.git"
+  },
   "author": "SubHunt",
   "license": "ISC",
   "bugs": {
