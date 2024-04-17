@@ -33,10 +33,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test
-
-      - name: Run linters
-        run: npm run lint
+        run: npm run ci
 
       - name: Build
         run: npm run build
