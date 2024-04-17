@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/gt5f3e5uqrebdfr9?svg=true)](https://ci.appveyor.com/project/SubHunt/ahj-4-testing)
+[![Build status](https://ci.appveyor.com/api/projects/status/bk1gqkghuu9yh1an?svg=true)](https://ci.appveyor.com/project/SubHunt/ahj-4-testing)
 
 # Домашнее задание к занятию "4.Организация тестирования"
 
