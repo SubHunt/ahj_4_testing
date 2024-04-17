@@ -1,12 +1,8 @@
 {
   "name": "ahj_4_testing",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
-  "proxy": "http://localhost:9000",
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
-  },
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
