@@ -1,5 +1,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/bk1gqkghuu9yh1an?svg=true)](https://ci.appveyor.com/project/SubHunt/ahj-4-testing)
 
+![CI](https://github.com/SubHunt/ahj_4_testing/actions/workflows/web.yml/badge.svg)
+
 # Домашнее задание к занятию "4.Организация тестирования"
 
 Правила сдачи задания:

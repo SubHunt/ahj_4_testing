@@ -18,7 +18,8 @@ export default class CardFormWidget {
 
     static get markup() {
         return `
-		<div class="cards">    
+		<h1> Check your credit card number </h1>
+        <div class="cards">    
 			<img src="${mir}" alt="Mir" class="card mir">       
 			<img src="${visa}" alt="Visa" class="card visa">
 			<img src="${mastercard}" alt="Mastercard" class="card mastercard">
@@ -29,8 +30,8 @@ export default class CardFormWidget {
 		</div>		
         <form class="card-form-widget">
             <div class="control">
-                <label for="innogrn-input">Введите номер карты</label>
-                <input type="text" id="card-input" class="input">
+                
+                <input type="text" id="card-input" class="input" placeholder="Credit card number">
             </div>
             <button class="submit">Click to Validate</button>
         </form>

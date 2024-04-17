@@ -18,5 +18,4 @@ build_script:
   - npm run build   # команда сборки
   
 test_script:
-  - npm run ci
-  # - npm run lint && npm test  # скрипт тестирования
+  - npm run ci  # скрипт тестирования

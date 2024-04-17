@@ -21,9 +21,6 @@ describe('Page start', () => {
     });
 
     browser = await puppeteer.launch({
-//      headless: true,
-//      slowMo: 100,
-//      devtools: true,
     });
 
     page = await browser.newPage();
@@ -56,10 +53,10 @@ describe('Page start', () => {
     await submit.click();
 
     await page.waitForSelector('.card-form-widget .input.valid');
-  }); //, 55000
+  });
   
   test('Form input should add .invalid class if card is not valid', async () => {
-    //jest.setTimeout(20000);
+    
     await page.goto('http://localhost:9000');
 
     await page.waitForSelector('.card-form-widget');
@@ -72,8 +69,8 @@ describe('Page start', () => {
     await submit.click();
 
     await page.waitForSelector('.card-form-widget .input.invalid');
-  }); //, 55000
-    
+  });
+  
   afterAll(async () => {
     await browser.close();
     server.kill();
